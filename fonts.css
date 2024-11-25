@@ -3,13 +3,13 @@
 @font-face {
     font-family: 'Lato';
     src: url("../the-best-of-amp.github.io/Lato-Regular.ttf") format('truetype');
-    font-weight: regular;
-    font-style: 400;
+	font-style: regular;
+	font-weight: 400;
 }
 
 @font-face {
     font-family: 'Lato';
     src: url("../the-best-of-amp.github.io/Lato-Black.ttf") format('truetype');
-    font-weight: black;
-    font-style: 900;
+	font-style: black;
+	font-weight: 900;
 }
