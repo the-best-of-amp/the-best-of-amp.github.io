@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url("../../the-best-of-amp.github.io/Lato-Regular.ttf") format('truetype');
+    src: url("../the-best-of-amp/the-best-of-amp.github.io/Lato-Regular.ttf") format('truetype');
 	font-style: regular;
 	font-weight: 400;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url("../../the-best-of-amp.github.io/Lato-Black.ttf") format('truetype');
+    src: url("../the-best-of-amp/the-best-of-amp.github.io/Lato-Black.ttf") format('truetype');
 	font-style: black;
 	font-weight: 900;
 }
