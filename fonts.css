@@ -1,0 +1,15 @@
+/* LATO */
+
+@font-face {
+    font-family: F16;
+    src: url("../the-best-of-amp/Lato-Regular.ttf");
+    font-weight: regular;
+    font-style: 400;
+}
+
+@font-face {
+    font-family: F16;
+    src: url("../the-best-of-amp/Lato-Black.ttf");
+    font-weight: black;
+    font-style: 900;
+}

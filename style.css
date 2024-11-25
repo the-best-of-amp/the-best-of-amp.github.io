@@ -1,0 +1,155 @@
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: regular;
+	background-repeat:
+	no-repeat,
+	repeat; 
+	
+	background-image: 
+	linear-gradient(to right, RGB(243, 243, 243), RGB(243, 243, 243)), 
+	linear-gradient(to right, RGB(0, 0, 0), RGB(0, 0, 0));
+	background-position:
+	top,
+	bottom;
+	background-size:
+	100% 45%,
+	100% 100%;
+}
+
+h1 {
+	color: #8c8c8c;
+	color: white;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	font-variant: small-caps;
+	margin-bottom: -5px;
+}
+
+h2 {
+	color: white;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+
+hr {
+	float: center;
+	background-color: black;
+	border: none;
+	margin-bottom: -10px;
+	height: 1px;
+	width: 820px;
+}
+
+.justify {
+	color: black;
+	font-size: 20px;
+	font-size: 18px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.justify_white {
+	color: white;
+	font-size: 20px;
+	font-size: 18px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.center {
+	color: white;
+	font-size: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.disclaimer {
+	color: black;
+	font-size: 15px;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: -5px;
+}
+
+br {
+   display: block;
+   margin: 4px 0;
+}
+
+p + p {
+	text-indent: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* pdf and print links */
+
+.links {
+	text-align: center;
+	overflow: hidden;
+	margin-left: 5px;
+	margin-right: -5px;
+	margin-top: 20px;
+}
+
+.links a {
+	font-weight: black;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	color: black;
+	font-weight: 900;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+/* vertical bar of colour */
+/* https://stackoverflow.com/questions/3348736/vertical-bars-in-html-css */
+
+/*                        */
+
+
+/* Create two unequal columns that floats next to each other */
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.left {
+	width: 500px;
+	width: 400px;
+}
+
+.right {
+	width: 500px;
+	width: 400px;
+}
+
+.middle {
+	width: 800px;
+}
+
+.margin {
+	width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* https://stackoverflow.com/questions/14814745/how-to-center-two-columns-using-css */
+#column_container {
+    width: 1000px;
+    width: 800px;
+    margin: 0 auto;
+}
