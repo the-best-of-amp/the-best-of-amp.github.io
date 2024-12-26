@@ -14,6 +14,7 @@ br {
 	font-size: 18px;
 	text-align: justify;
 	padding-bottom: 100px;
+	hyphens: auto;
 }
 /*indent following paragraphs and only have small gap*/
 div.writing p + p {

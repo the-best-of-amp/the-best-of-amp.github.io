@@ -50,6 +50,7 @@ hr {
 	font-size: 18px;
 	font-size: 17px;
 	text-align: justify;
+	hyphens: auto;
 }
 
 .justify_white {
