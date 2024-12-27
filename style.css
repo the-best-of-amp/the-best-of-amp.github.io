@@ -16,8 +16,10 @@ body {
 	top,
 	bottom;
 	background-size:
-	100% 38%,
-	100% 100%;
+	/*100% 38%,
+	100% 100%;*/
+	auto 38%,
+	auto auto;
 }
 
 h1 {
