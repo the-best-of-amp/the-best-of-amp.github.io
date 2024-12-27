@@ -8,8 +8,10 @@ body {
 	repeat; 
 	
 	background-image: 
-	linear-gradient(to right, RGB(243, 243, 243), RGB(243, 243, 243)), 
-	linear-gradient(to right, RGB(0, 0, 0), RGB(0, 0, 0));
+	/*linear-gradient(to right, RGB(243, 243, 243), RGB(243, 243, 243)), 
+	linear-gradient(to right, RGB(0, 0, 0), RGB(0, 0, 0));*/
+	linear-gradient(RGB(243, 243, 243), RGB(243, 243, 243)), 
+	linear-gradient(RGB(0, 0, 0), RGB(0, 0, 0));
 	background-position:
 	top,
 	bottom;
