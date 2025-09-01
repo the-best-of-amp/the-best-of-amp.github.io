@@ -20,5 +20,6 @@
     font-family: 'LeagueSpartan';
 	src: local('LeagueSpartan-Bold'),
     url('/LeagueSpartan-Bold.otf') format('truetype');
-	font-style: black;
+	font-style: bold;
+	font-weight: 700;
 }
