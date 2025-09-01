@@ -192,6 +192,9 @@ td {
 .alignright { text-align: right; }
 .alignleft { text-align: left; }
 
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }
+
 /*
 for the writing */
 .sidenav {
