@@ -114,15 +114,11 @@ p + p {
 }
 
 .links a {
+	font-family: 'LeagueSpartan', sans-serif;
 	font-weight: black;
-	text-align: center;
-	font-size: 16px;
 	font-size: 25px;
-	color: white;
 	color: black;
 	font-weight: 900;
-	margin-right: 15px;
-	margin-left: 15px;
 	margin-right: 0px;
 	margin-left: 0px;
 	text-decoration: none;
