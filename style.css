@@ -18,7 +18,7 @@ body {
 	background-size:
 	/*100% 38%,
 	100% 100%;*/
-	auto 38%,
+	auto 35.5%,
 	auto auto;
 }
 
@@ -54,6 +54,13 @@ hr {
 	font-size: 20px;
 	font-size: 18px;
 	font-size: 17px;
+	text-align: justify;
+	hyphens: auto;
+}
+
+.justify_disclaimer {
+	color: black;
+	font-size: 15px;
 	text-align: justify;
 	hyphens: auto;
 }
@@ -110,11 +117,15 @@ p + p {
 	font-weight: black;
 	text-align: center;
 	font-size: 16px;
+	font-size: 25px;
 	color: white;
 	color: black;
 	font-weight: 900;
 	margin-right: 15px;
 	margin-left: 15px;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-decoration: none;
 }
 
 /* vertical bar of colour */
@@ -164,6 +175,22 @@ p + p {
     width: 800px;
     margin: 0 auto;
 }
+
+table, td, th {
+  border: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+.alignright { text-align: right; }
+.alignleft { text-align: left; }
 
 /*
 for the writing */
