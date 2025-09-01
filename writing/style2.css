@@ -155,3 +155,11 @@ a:active {
   margin-bottom: 1px;
   float: left;
 }
+
+a.current {
+  color: #50C878;
+  background-color: transparent;
+  text-decoration: underline;
+  /*margin-bottom must match that of <br/>*/
+  margin-bottom: 1px;
+}
