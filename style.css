@@ -115,13 +115,19 @@ p + p {
 
 .links a {
 	font-family: 'LeagueSpartan', sans-serif;
-	font-weight: black;
+	font-weight: bold;
 	font-size: 25px;
 	color: black;
-	font-weight: 900;
+	font-weight: 700;
 	margin-right: 0px;
 	margin-left: 0px;
 	text-decoration: none;
+}
+
+a:hover {
+  color: #50C878;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 /* vertical bar of colour */
@@ -184,6 +190,9 @@ table {
 td {
   text-align: center;
 }
+
+/*
+table attributes */
 
 .alignright { text-align: right; }
 .alignleft { text-align: left; }
