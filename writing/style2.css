@@ -1,3 +1,7 @@
+html {
+	overflow-x:hidden;
+}
+
 /*body {
 	font-family: 'CormorantGaramond';
 	font-weight: medium;
@@ -70,15 +74,25 @@ div.title p + p {
 }
 
 /*columns*/
+/*
 #column_container {
     width: 600px;
     margin: 0 auto;
 	padding-left: 300px;
 	padding-right: 300px;
+}*/
+#column_container {
+	position: absolute;
+    width: 600px;
+	left: 350px;
+    margin: 0 auto;
 }
 
 .column {
-	float: left;
+	/*float: left;*/
+	/*position: absolute;*/
+	top: -15px;
+	left: 350px;
 	padding: 0px;
 }
 
@@ -87,9 +101,11 @@ div.title p + p {
 
 /*poetry column with greater width for long lines*/
 #wide_container {
-    width: 900px;
+	position: absolute;
+    width: 650px;
+	/*padding-left: 300px;*/
+	left: 350px;
     margin: 0 auto;
-	padding-left: 300px;
 }
 
 /*
