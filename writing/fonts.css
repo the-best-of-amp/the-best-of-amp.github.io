@@ -1,0 +1,22 @@
+/* LATO */
+
+@font-face {
+    font-family: 'EBGaramond';
+	src: local('EBGaramond-Medium'),
+    url('/EBGaramond-Medium.ttf') format('truetype');
+	font-style: regular;
+}
+
+@font-face {
+    font-family: 'EBGaramond';
+	src: local('EBGaramond-MediumItalic'),
+    url('/EBGaramond-MediumItalic.ttf') format('truetype');
+	font-style: italic;
+}
+
+@font-face {
+    font-family: 'EBGaramond';
+	src: local('EBGaramond-Bold'),
+    url('/EBGaramond-Bold.ttf') format('truetype');
+	font-style: bold;
+}
