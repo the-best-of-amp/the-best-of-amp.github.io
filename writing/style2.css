@@ -93,6 +93,7 @@ div.title p + p {
 	/*position: absolute;*/
 	top: -15px;
 	left: 350px;
+	right: 50px;
 	padding: 0px;
 }
 
